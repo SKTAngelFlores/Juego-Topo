@@ -1,0 +1,36 @@
+body {
+  background-image: url("img/Piso.jpg");
+  background-size: cover;
+}
+
+h1,
+h2 {
+  text-align: center;
+  text-shadow: 1px 1px green;
+}
+h1 {
+  font-size: 50px;
+  text-shadow: 2px 2px green;
+}
+
+.cuadro {
+  width: 80px;
+  height: 80px;
+  border-style: double;
+  border-color: white;
+}
+
+.cuadricula {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 400px;
+  height: 400px;
+  margin: 10px auto;
+}
+
+.topo {
+  background-image: url("img/topo1.png");
+  background-size: cover;
+}
